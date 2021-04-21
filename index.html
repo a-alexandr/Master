@@ -3,6 +3,7 @@
  <head>
   <meta charset="utf-8">
   <title>Моя первая веб-страница</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
   <style>
 	  body { margin: 0; }
    #content1, #content2, #content3 { position: absolute; } 
@@ -30,9 +31,9 @@
    }
   </style>
  </head>
- <body>
-  <h1 align="center">Новосибирский велоклуб "Райдер"</h1>
-  <p align="center" style="color:#ff0000; font-size:40px">Что такое велотуризм?</p>  
+ <body background-color: #f2eee9;>
+  <h1 class="heading" align="center">Новосибирский велоклуб "Райдер"</h1>
+  <p id="a1" align="center">Что такое велотуризм?</p>  
   <div id="content1">
   <p align="right" style="color:#FF8C00; font-size:30px">Иногда велотуризм бывает таким...</p>
   <p><img align="right" src="velo1.png" alt="Велотуризм" width="40%" height="40%"></p>
@@ -80,7 +81,7 @@
  </head>
  <body>
   <div id="header1">
-  <p align="center" style="color:#ff0000; font-size:40px">Но всегда неизменно присутствие...</p>
+  <p class="subtitle" align="center">Но всегда неизменно присутствие...</p>
   </div>
   <div id="content4">
   <p align="left" style="color:#FF8C00; font-size:30px">Красивых видов...</p>
@@ -95,7 +96,7 @@
   <p><img align="left" src="pal.png" alt="Велотуризм" width="40%" height="40%"></p>
   </div>
   <div id="content7">
-  <p align="right" style="color:#808080; font-size:20px"><i>Катайся с нами, катайся как мы!</i></p>
+  <p align="right" style="color:#808080; font-size:20px"><i>Катайся с нами, <a href="http://google.com">катайся как мы!</a></i></p>
   </div>
  </body>
 </html>

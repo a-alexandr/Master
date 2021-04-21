@@ -1,0 +1,29 @@
+
+a{
+color: blue;
+font-size: 25px;
+}
+
+.heading{
+color: #2887DB;
+background-color: #80807D;
+border: 10px dashed #191919;
+font-size: 50px;
+border-radius: 100px;
+}
+
+#a1{
+color: #610455;
+font-size: 35px;
+}
+
+.subtitle{
+color: #170461;
+font-size: 35px;
+}
+
+.heading:hover{
+border: 10px solid red;
+border-radius: 100px;
+}
+
